@@ -1,0 +1,1038 @@
+
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  
+  <meta charset="utf-8">
+  <title>dentalconnectacademy</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ** Plugins Needed for the Project ** -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
+  <!-- slick slider -->
+  <link rel="stylesheet" href="plugins/slick/slick.css">
+  <!-- themefy-icon -->
+  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">
+  <!-- animation css -->
+  <link rel="stylesheet" href="plugins/animate/animate.css">
+  <!-- aos -->
+  <link rel="stylesheet" href="plugins/aos/aos.css">
+  <!-- venobox popup -->
+  <link rel="stylesheet" href="plugins/venobox/venobox.css">
+
+  <!-- Main Stylesheet -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!--Favicon-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.css">
+  
+  <meta name="viewport" content="width=device-width">
+  <script>
+    $(document).ready(function(){
+            $('#myModal').modal('show')
+
+    });
+
+    
+
+</script>
+
+
+<style>
+   
+</style>
+
+</head>
+
+<body>
+ 
+  <form method="POST" class="form12" action="send_form_email1.php"  id="home-page-pop-up-form">
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="justify-content-center" id="exampleModalLabel">Booking Form</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            
+            
+          </div>
+          <div class="modal-body">
+            
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Name</label>
+                <input type="text" class="form-control" id="recipient-name" name="name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Email</label>
+                <input type="email" class="form-control" id="recipient-name" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Phone Number</label>
+                <input type="number" class="form-control" id="recipient-name" name="phone_number" required>
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">Qualification</label>
+                <input type="text" class="form-control" id="recipient-name" name="Qualification" required>
+              </div>
+              <div class="form-group">
+                <label for="form_need">Please specify your Course</label>
+                <select id="form_need" name="course_name" class="form-control" required="required" data-error="Please specify your need.">
+                  <option value=""></option>
+                  <option value="oral surgery">oral surgery</option>
+                  <option value="Basic Dental Asthetic">Basic Dental Asthetic</option>
+                  <option value="Complete Dental Prosthodontics">Complete Dental Prosthodontics</option>
+                  <option value="Mastering Endodontic">Mastering Endodontic</option>
+                  <option value="Mastering Endodontic">General Dentistry Course</option>
+                  <option value="Dental Practce Management Boot Camp">Dental Practce Management Boot Camp</option>
+                  <option value="Laser Dentistryt Basics">Laser Dentistryt Basics</option>
+                  <option value="Comprehensive Implantology">Comprehensive Implantology</option>
+                  <option value="Six days Endodontic Mini Residency Program">Six days Endodontic Mini Residency Program</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="recipient-name" class="control-label">City</label>
+                <input type="text" class="form-control" id="recipient-name" name="City" required>
+              </div>
+              
+            
+          </div>
+              
+          <div class="modal-footer">
+            
+            <button  type="submit" id="email" name="Submit" value="Submit" class="btn btn-primary">Submit</button>
+            </div>
+              <div class="col-lg-5 col-12 col-sm-6">
+              <div class="message-popup-content__img message-popup-content__img--three"></div>
+        </div>
+        </div>
+      </div>
+    </div>
+    </form>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+        if(sessionStorage.getItem("#myModal") !=='true')
+        {
+         
+          $("#myModal").modal("show");
+          
+          sessionStorage.setItem('#myModal' ,'true');
+  
+  }
+});
+  
+  
+    </script>
+    
+  <!-- preloader start -->
+  <div class="preloader">
+    <img src="images/preloader.gif" alt="preloader">
+  </div>
+  <!-- preloader end -->
+  <link rel="stylesheet" href="./css1/style.css">
+<!-- header -->
+
+<style>
+  
+</style>
+<div class="container main_container" id="main_container">
+<header class="fixed-top header">
+  <!-- top header -->
+  <div class="top-header py-2 bg-white">
+    <div class="container">
+      <div class="row no-gutters">
+        <div class="col-lg-4 text-center text-lg-left">
+          <a class="text-color mr-3" href="callto:+916362029417"><strong>CALL</strong> +91 6362029417</a>
+          <ul class="list-inline d-inline">
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.facebook.com/pg/noveldentalconnect/about/?ref=page_internal"><i class="ti-facebook"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://twitter.com/DentalBlr?s=08"><i class="ti-twitter-alt"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.linkedin.com/in/dental-connect-b9a81918b"><i class="ti-linkedin"></i></a></li>
+            <li class="list-inline-item mx-0"><a class="d-inline-block p-2 text-color" href="https://www.instagram.com/p/B8wCGYupTKW/?igshid=ozztonoqdjou"><i class="ti-instagram"></i></a></li>
+          </ul>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+  
+  <!-- navbar -->
+
+
+  
+  <div class="navigation w-100" style="
+  height: 55px;
+">
+    <div class="container" style="
+    height: inherit;
+">
+      <nav class="navbar navbar-expand-lg navbar-light p-0" style="
+      height: inherit;
+  ">
+        <a class="navbar-brand" href="index.html" id="logo1"><img src="images/Logo 2.svg" alt="logo"></a>
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+          aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" style="
+        height: inherit; z-index: 10;" id="navigation">
+          <ul class="navbar-nav ml-auto" id="navigation"> 
+      <style>
+        
+      </style>
+            <li class="nav-item nav-item1 active" >
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item nav-item1 @@about" >
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item  nav-item1 @@courses" >
+              <a class="nav-link" href="courses.html">COURSES</a>
+            </li>
+            
+            
+            
+            <li class="nav-item nav-item1 @@contact" >
+              <a class="nav-link " href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- /header -->
+<!-- Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content rounded-0 border-0 p-4">
+            <div class="modal-header border-0">
+                <h3>Register</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+
+<!-- hero slider -->
+<section class="hero-section overlay bg-cover" data-background="images/Landing-Page_4.jpg">
+  <div class="container">
+    <div class="hero-slider">
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".1">Your bright future is our mission</h1>
+            
+            <a href="courses.html" class="btn btn-primary" data-animation-out="fadeOutRight" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInLeft" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".1">Join Us now for highly Personalized Comprehensive Clinical Courses</h1>
+            
+            <a href="courses.html" class="btn btn-primary" data-animation-out="fadeOutUp" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInDown" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+      <!-- slider item -->
+      <div class="hero-slider-item">
+        <div class="row">
+          <div class="col-md-8">
+            <h1 class="text-white" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="fadeInUp" data-delay-in=".1">Organized and Structural Educational Programme.  Job Oriented Courses</h1>
+            
+            <a href="courses.html" class="btn btn-primary" data-animation-out="fadeOutDown" data-delay-out="5" data-duration-in=".3" data-animation-in="zoomIn" data-delay-in=".7">Apply now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /hero slider -->
+
+
+<!-- /banner-feature -->
+<style>
+ 
+</style>
+<!-- about us -->
+<section class="section about_us">
+  <div class="container" style="height: inherit;">
+    <div class="row align-items-center" style="height: inherit;">
+      
+        <div class="col-xl-6 about_us1" >
+         
+          <h2 class="section-title1">Welcome to Dental Connect</h2>
+          <div class="card">
+            <div class="card-body">
+            <div class="card-title">
+              <h4 class="section-tittle inner_title">Our Goal</h4>
+  
+            </div>
+            
+            <div class="card-text">
+              <p class="inner_text">Our goal is to help you to learn the latest and best dental hands-on techniques possible. That means to give you the knowledge and the confidence to perform advanced procedures you never thought you could accomplish.</p>
+          
+            </div>
+            </div>
+            </div>
+          
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h4 class="section-tittle inner_title">OUR COMMITMENT</h4>
+              </div>
+              <div class="card=body">
+                <p class="inner_text">Our commitment to excellence, our dedication to dentistry, along with the direct supervision of our expert instructors, makes your commitment to your own excellence virtually assured. Whether you're just starting out, or looking to enhance your existing skills, this series is exactly what you're looking for.
+                </p>
+              </div>
+            </div>
+          </div>
+  
+          <div class="card">
+            <div class="card-body">
+              <div class="card-title">
+                <h4 class="section-tittle inner_title">OUR COURSES</h4>
+              </div>
+              <div class="card=body">
+                <p class="inner_text">Our programs are uniquely designed for the general practitioner, specialist, and all those looking to extend their knowledge and experience of advance dentistry.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          
+        </div>
+      
+      <br>
+      <br>
+      <div class="col-md-6 order-2 order-md-2 mb-4 mb-md-0 upcoming_courses_div about_us1" style="height: inherit;">
+        <h2 class="section-title upcoming_courses d-flex justify-content-center">Upcoming Courses</h2>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+         <div class="d-flex justify-content-center">
+          <div class="carousel-inner " style="width: 420px;">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="Webp.net-resizeimage.jpg" alt="First slide" style="object-fit: inherit;">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Web-Brochure-3.2.2020_P2 (1).jpg" alt="Second slide"  style="object-fit: inherit;">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="IMG-20200220-WA0004.jpg" alt="Third slide"  style="object-fit: inherit;">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="IMG-20200220-WA0002.jpg" alt="Third slide"  style="object-fit: inherit;">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="Web-Brochure-3.2.2020_P5 (1).jpg" alt="Third slide"  style="object-fit: inherit;">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+  </div>
+</section>
+<!-- /about us -->
+
+<!-- courses -->
+<br>
+
+  <div class="swiper-container">
+  
+  
+    <!-- course list -->
+
+  <!-- course item -->
+  
+  <div class="justify-content-center">
+  <div class="col-12">
+  <h2 class="section-title our_courses">Our Courses</h2>
+</div>  
+</div>
+  <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+      <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;" src="./images/geo-days--_u2i16I-jc-unsplash-min.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:<strong> 8 contact days distributed over 1 month.</strong> </li>
+  
+        </ul>
+        <a href="course-single1.html">
+          <h4 class="card-title">Oral Surgery</h4>
+        </a>
+        <p class="card-text mb-4"> ● Management of impacted 3rd molars<br>
+          ● Clinical Cases (Live Surgery)<br>
+          ● Exdontia, Minor Oral Surgery and Emergencies</p>
+          <div class="row">
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single1.html" class="btn btn-primary btn-sm" data-toggle="modal" id="oral_surgery" onclick="buttonclick()"   data-target="#myModal">Apply now</a>
+            </div>
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single1.html" class="btn btn-primary btn-sm">Know More</a>
+ 
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function buttonclick(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','oral_surgery1')
+
+    }
+
+    
+    
+  </script>
+  
+  <!-- course item -->
+    <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;" src="./dental-treatments.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration: 8 contact days</li>
+         
+        </ul>
+        <a href="course-single2.html">
+          <h4 class="card-title">Basic Dental Asthetic</h4>
+        </a>
+        <p class="card-text mb-4">
+          ● Composite<br>
+          ● Laminates Veneer<br>
+          ● Bleaching<br>
+          ● Laser Applications</p>
+          <div class="row">
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single2.html" class="btn btn-primary btn-sm"  data-toggle="modal" onclick="basic_dental_asthetic()"data-target="#myModal">Apply now</a>
+            </div>
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single2.html" class="btn btn-primary btn-sm">Know More</a>
+ 
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function basic_dental_asthetic(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','basic_dental_asthethic')
+
+    }
+
+    
+    
+  </script>
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;"src="./images/umanoide-KeVKEs1_RDU-unsplash-min.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:<strong> 16 contact days distributed over 2 month.</strong></li>
+        
+        </ul>
+        <a href="course-single3.html">
+          <h4 class="card-title">Complete Denture Prosthodontics</h4>
+        </a>
+        <p class="card-text mb-4">  ● Complete dentures<br>
+          ● Acrylic RPD<br>
+          ● Flexible Denture<br>
+          ● Cast partial RPD<br>
+          </p>
+          <div class="row">
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single3.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="complete_denture_prosthodontics()"data-target="#myModal">Apply now</a>
+            </div>
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single3.html" class="btn btn-primary btn-sm">Know More</a>
+ 
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+    <script>
+    
+      function complete_denture_prosthodontics(){
+        console.log('buttonclick')
+        document.querySelector('.form12').setAttribute('id','complete_denture_prosthodontics')
+  
+      }
+  
+      
+      
+    </script>
+  
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;" src="images/15064.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:</li>
+          
+        </ul>
+        <a href="course-single4.html">
+          <h4 class="card-title">Mastering Endodontic</h4>
+        </a>
+        <p class="card-text mb-4"> EXTENSIVE PROGRAM IN ENDODONTICS INCLUDING MULTIPLE PATIENTS</p>
+        <div class="row">
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single4.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="extensive_program_endodontics()"data-target="#myModal">Apply now</a>
+          </div>
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single4.html" class="btn btn-primary btn-sm">Know More</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function extensive_program_endodontics(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','extensive_program_endodontics')
+
+    }
+
+    
+    
+  </script>
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0"  style="
+      height: 353px;
+      object-fit: cover;" src="images/orthodontist-287285_1920.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:Total of 16 contact days distributed over 2 month.</li>
+          
+        </ul>
+        <a href="course-single5.html">
+          <h4 class="card-title">General Dentistry Course</h4>
+        </a>
+        <p class="card-text mb-4">
+          • Incorporate Implantology<br>
+          • Develop a dental implant treatment plan<br>
+          
+          • Manage complications</p>
+          <div class="row">
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single5.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="general_dentistry_course()"data-target="#myModal">Apply now</a>
+            </div>
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single5.html" class="btn btn-primary btn-sm">Know More</a>
+ 
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function general_dentistry_course(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','general_dentistry_course')
+
+    }
+
+    
+    
+  </script>
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0"  style="
+      height: 353px;
+      object-fit: cover;" src="images/artur-tumasjan-qLzWvcQq-V8-unsplash.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:2 days </li>
+          
+        </ul>
+        <a href="course-single6.html">
+          <h4 class="card-title">Dental Practice Management Boot Camp</h4>
+        </a>
+        <p class="card-text mb-4"> Two days Intensive Course
+          Designed to expand the participant’s knowledge and confidence in Dental practice in following areas</p>
+          <div class="row">
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single6.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="dental_practice_bootcamp()"data-target="#myModal">Apply now</a>
+            </div>
+            <div class="col-sm-6" style="width: 50%;">
+             <a href="course-single6.html" class="btn btn-primary btn-sm">Know More</a>
+ 
+            </div>
+          </div>
+      </div>
+    </div>
+  
+</div>
+<script>
+    
+  function dental_practice_bootcamp(){
+    console.log('buttonclick')
+    document.querySelector('.form12').setAttribute('id','dental_practice_bootcamp')
+
+  }
+
+  
+  
+</script>
+<!-- /course list -->
+    <!-- course list -->
+
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;"src="./images/dentist-1864921_1920.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:Total of 4 contact days distributed over 2 weeks.</li>
+          
+        </ul>
+        <a href="course-single7.html">
+          <h4 class="card-title">Laser Dentistry Basics</h4>
+        </a>
+        <p class="card-text mb-4">  ● Introduction and rationale for lasers<br>
+          ● Live Demonstration on the patients<br>
+          ● Lectures and Discussion.
+         </p>
+         <div class="row">
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single7.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="laser_dentistry_basics()"data-target="#myModal">Apply now</a>
+          </div>
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single7.html" class="btn btn-primary btn-sm">Know More</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function laser_dentistry_basics(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','laser_dentistry_basics')
+  
+    }
+  
+    
+    
+  </script>
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0"  style="
+      height: 353px;
+      object-fit: cover;" src="./images/peter-kasprzyk-U1gvhqVQ2kQ-unsplash.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration: <strong>100 Hours Over 6 Months</strong></li>
+          
+        </ul>
+        <a href="course-single8.html">
+          <h4 class="card-title">Comprehensive Implantology</h4>
+        </a>
+        <p class="card-text mb-4"> ● To familiarize with various components used in clinical sequence during the completion of rehabilitation.<br>
+          ● To optimize usage of Prosthetic options of the particular company
+         <div class="row">
+           <div class="col-sm-6" style="width: 50%;">
+            <a href="course-single8.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="comprehensive_implantology()"data-target="#myModal">Apply now</a>
+           </div>
+           <div class="col-sm-6" style="width: 50%;">
+            <a href="course-single8.html" class="btn btn-primary btn-sm">Know More</a>
+
+           </div>
+         </div>
+        
+      </div>
+    </div>
+  </div>
+  <script>
+    
+    function comprehensive_implantology(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','comprehensive_implantology')
+  
+    }
+  
+    
+    
+  </script>
+  <!-- course item -->
+  <div class="swiper-slide">
+    <div class="card p-0 border-primary rounded-0 hover-shadow">
+      <img class="card-img-top rounded-0" style="
+      height: 353px;
+      object-fit: cover;" src="./images/hao-shaw-Da_JyO25MR0-unsplash.jpg" alt="course thumb">
+      <div class="card-body">
+        <ul class="list-inline mb-2">
+          <li class="list-inline-item"><i class="ti-calendar mr-1 text-color"></i>Course duration:6 days</li>
+          
+        </ul>
+        <a href="course-single9.html">
+          <h4 class="card-title">Six Days Endodontic Mini residency Program.
+          </h4>
+        </a>
+        <p class="card-text mb-4"> Designed for General Practioners who have decided to incorporate endodontic in their treatment offering.</p>
+        <div class="row">
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single9.html" class="btn btn-primary btn-sm" data-toggle="modal" onclick="six_days_endodontics_course()" data-target="#myModal">Apply now</a>
+          </div>
+          <div class="col-sm-6" style="width: 50%;">
+           <a href="course-single9.html" class="btn btn-primary btn-sm">Know More</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <script>
+    
+    function six_days_endodontics_course(){
+      console.log('buttonclick')
+      document.querySelector('.form12').setAttribute('id','six_days_endodontics_course')
+  
+    }
+  
+    
+    
+  </script>
+<!-- /course list -->
+  
+
+
+<!-- /cta -->
+
+<!-- success story -->
+
+
+
+<!-- extra -->
+
+<!-- /success story -->
+
+<!-- events -->
+
+    <!-- mobile see all button -->
+    
+
+<!-- /events -->
+
+<!-- teachers -->
+
+<!-- /teachers -->
+
+<!-- blog -->
+
+<!-- /blog -->
+
+<!-- footer -->
+
+<style>
+  footer{
+    color:#a5a5d5;
+  }
+  .text-color{
+    color:#a5a5d5;
+  }
+</style>
+<footer>
+  <!-- newsletter -->
+  <div class="footer bg-footer section border-bottom" style="padding-top: 10px;">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <!-- logo -->
+          <a class="logo-footer" href="index.html"><img class="img-fluid mb-4" src="images/Logo 2.svg" style="height: 100px;" alt="logo"></a>
+          <ul class="list-unstyled">
+            <li class="mb-2">556/67, 7th main road , 5th cross Rd, Vijayanagar, Bengaluru, Karnataka</li>
+            <li class="mb-2">+91 6362029417</li>
+           
+            <li class="mb-2">dentalconnectacademy@gmail.com</li>
+          </ul>
+        </div>
+        <!-- company -->
+        <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
+          <h4 class="text-white mb-5">COMPANY</h4>
+          <ul class="list-unstyled">
+            <li class="mb-3"><a class="text-color" href="about.html">About Us</a></li>
+            <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
+            <li class="mb-3"><a class="text-color" href="contact.html">Contact</a></li>
+            
+          </ul>
+        </div>
+        <style>
+          iframe{
+            opacity: 0.9;
+          }
+          iframe:hover{
+            opacity: 1;
+          }
+        </style>
+        <!-- links -->
+        <div class="col-lg-4 col-sm-8 mb-5 mb-lg-0">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18494.466073683052!2d77.53074546258507!3d12.972967452253066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3de76bf8a6f9%3A0x97369c1031458adf!2sSmile%20Studio%20Oral%20Care!5e0!3m2!1sen!2sin!4v1582267728276!5m2!1sen!2sin"  width="500" height="300" frameborder="0" style="border:0; padding-top:30px;"allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- copyright -->
+  <div class="copyright py-4 bg-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 text-sm-left text-center">
+          <p class="mb-0">Copyright
+            
+          
+            <script>
+              var CurrentYear = new Date().getFullYear()
+              document.write(CurrentYear)
+            </script> 
+            © copyright <a href="http://tedroox.com/" style=" font-size: 16px;"> Tedroo<span style="color: rgb(223, 129, 52);">X</span> Technologies.</a></p>
+        </div>
+        <div class="col-sm-5 text-sm-right text-center" >
+          <ul class="list-inline" style="margin-right: 10%;">
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/pg/noveldentalconnect/about/?ref=page_internal"><i class="ti-facebook text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/DentalBlr?s=08"><i class="ti-twitter-alt text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.linkedin.com/in/dental-connect-b9a81918b"><i class="ti-linkedin text-primary"></i></a></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.instagram.com/p/B8wCGYupTKW/?igshid=ozztonoqdjou"><i class="ti-instagram text-primary"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js.map"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 2,
+          spaceBetween: 50,
+        },
+        1100:{
+          slidesPerView:2,
+          spaceBetween: 50,
+        }
+      }
+    });
+  </script>
+  <script>
+     var swiper = new Swiper('.swiper-container1', {
+      slidesPerView: auto,
+      spaceBetween: 10,
+      freeMode: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      }
+    });
+  </script>
+  <script>
+    var flkty = new Flickity( '.main-gallery', {
+  cellAlign: 'left',
+  contain: true,
+  wrapAround: true,
+  prevNextButtons: false,
+  autoPlay: 5000
+});
+  </script>
+  <script>
+   
+  jQuery(document).ready(function($) {
+
+var feedbackSlider = $('.feedback-slider');
+feedbackSlider.owlCarousel({
+  items: 1,
+  nav: true,
+  dots: true,
+  autoplay: true,
+  loop: true,
+  mouseDrag: true,
+  touchDrag: true,
+  navText: ["<i class='fa fa-long-arrow-left'></i>", "<i class='fa fa-long-arrow-right'></i>"],
+  responsive:{
+
+    // breakpoint from 767 up
+    767:{
+      nav: true,
+      dots: false
+    }
+  }
+});
+
+feedbackSlider.on("translate.owl.carousel", function(){
+  $(".feedback-slider-item h3").removeClass("animated fadeIn").css("opacity", "0");
+  $(".feedback-slider-item img, .feedback-slider-thumb img, .customer-rating").removeClass("animated zoomIn").css("opacity", "0");
+});
+
+feedbackSlider.on("translated.owl.carousel", function(){
+  $(".feedback-slider-item h3").addClass("animated fadeIn").css("opacity", "1");
+  $(".feedback-slider-item img, .feedback-slider-thumb img, .customer-rating").addClass("animated zoomIn").css("opacity", "1");
+});
+feedbackSlider.on('changed.owl.carousel', function(property) {
+  var current = property.item.index;
+  var prevThumb = $(property.target).find(".owl-item").eq(current).prev().find("img").attr('src');
+  var nextThumb = $(property.target).find(".owl-item").eq(current).next().find("img").attr('src');
+  var prevRating = $(property.target).find(".owl-item").eq(current).prev().find('span').attr('data-rating');
+  var nextRating = $(property.target).find(".owl-item").eq(current).next().find('span').attr('data-rating');
+  $('.thumb-prev').find('img').attr('src', prevThumb);
+  $('.thumb-next').find('img').attr('src', nextThumb);
+  $('.thumb-prev').find('span').next().html(prevRating + '<i class="fa fa-star"></i>');
+  $('.thumb-next').find('span').next().html(nextRating + '<i class="fa fa-star"></i>');
+});
+$('.thumb-next').on('click', function() {
+  feedbackSlider.trigger('next.owl.carousel', [300]);
+  return false;
+});
+$('.thumb-prev').on('click', function() {
+  feedbackSlider.trigger('prev.owl.carousel', [300]);
+  return false;
+});
+
+}); //end ready
+  
+  </script>
+</footer>
+</div>
+<!-- /footer -->
+
+<!-- jQuery -->
+<script src="plugins/jQuery/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+
+<!-- slick slider -->
+<script src="plugins/slick/slick.min.js"></script>
+<!-- aos -->
+<script src="plugins/aos/aos.js"></script>
+<!-- venobox popup -->
+<script src="plugins/venobox/venobox.min.js"></script>
+<!-- filter -->
+<script src="plugins/filterizr/jquery.filterizr.min.js"></script>
+<!-- google map -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu5nZKbeK-WHQ70oqOWo-_4VmwOwKP9YQ"></script>
+<script src="plugins/google-map/gmap.js"></script>
+
+<!-- Main Script -->
+<script src="js/script.js"></script>
+<!-- on scroll -->
+<!-- <script>
+  window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 890 || document.documentElement.scrollTop > 890) {
+    document.getElementById("logo1").style.height = "80px";
+  } else {
+    document.getElementById("logo1").style.height = "110px";
+  }
+}
+</script> -->
+
+<script>
+    
+
+       $(window).scroll(function() {
+if ($(this).scrollTop() > 500 ){
+    $("#logo1").css('visibility', 'hidden');
+}
+else{
+  $("#logo1").css('visibility', 'visible');
+}
+       });
+</script>
+
+
+
+</body>
+</html>

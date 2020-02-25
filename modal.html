@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+ 
+      
+    input[type=text], 
+    input[type=password] { 
+        width: 100%; 
+        padding: 12px 20px; 
+        margin: 8px 0; 
+        display: inline-block; 
+        border: 2px solid #ccc; 
+        box-sizing: border-box; 
+    } 
+     
+      
+    button { 
+        background-color: Green; 
+        color: white; 
+        padding: 15px 20px; 
+        margin: 8px 0; 
+        cursor: pointer; 
+        width: 100%; 
+    } 
+    
+      
+    .cancelbtn { 
+        padding: 15px 20px; 
+        background-color: #FF2E00; 
+    } 
+   
+      
+    .cancelbtn, 
+    .signupbtn { 
+        float: left; 
+        width: 50%; 
+    } 
+   
+      
+    .container { 
+        padding: 16px; 
+  
+    } 
+    
+      
+    .clearfix::after { 
+        content: ""; 
+        clear: both; 
+        display: table; 
+    } 
+   
+      
+    @media screen and (max-width: 300px) { 
+        .cancelbtn, 
+        .signupbtn { 
+            width: 100%; 
+        } 
+    } 
+</style> 
+  
+<body> 
+  
+    <h2 style=text-align:center>Booking Form</h2> 
+    
+    <form action="/" style="border:1px solid #ccc"> 
+        <div class="container"> 
+            <label><b>Name</b></label> 
+            <input type="text" placeholder="Enter name" name="name" required> 
+             
+            <label><b>Phone No.</b></label> 
+            <input type="text" placeholder="Enter number" name="phone" required> 
+
+            <label><b>Email</b></label> 
+            <input type="text" placeholder="Enter Email" name="email" required> 
+  
+            <label><b>Qualification</b></label> 
+            <input type="password"  name="qualifi" required> 
+  
+            <label><b>Additional info</b></label> <br>
+    
+            <textarea rows="4" cols="180" ></textarea>
+           
+            <p>To create an account you have to agree our <a href="#">Terms & Privacy</a>.</p> 
+  
+            <div class="clearfix"> 
+                <button type="button" class="cancelbtn">Cancel</button> 
+                <button type="submit" class="signupbtn">Sign Up</button> 
+            </div> 
+        </div> 
+    </form> 
+  
+</body> 
+  
+</html> 
